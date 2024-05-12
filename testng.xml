@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SeleniumAutomation">
+<listeners>
+		<listener
+			class-name="com.murali.learnings.automation.selautomationfw.utils.Listeners"></listener>
+	</listeners>
+  <test thread-count="5" name="PageObjectTest">
+    <classes>
+      <class name="com.murali.learnings.automation.selautomationfw.tests.PageObjectTest"/>
+     <!--  <class name="com.murali.learnings.automation.selautomationfw.tests.SmokeTest"/> -->
+    </classes>
+  </test> <!-- PageObjectTest -->
+</suite> <!-- SeleniumAutomation -->
